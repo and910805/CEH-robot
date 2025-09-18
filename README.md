@@ -29,7 +29,7 @@ line-quiz-bot/
 └─ README.md               # 專案說明文件
 ```
 
----
+
 
 ## 🔑 檔案用途
 
@@ -63,6 +63,13 @@ line-quiz-bot/
 * **`README.md`**
   目前這份文件，說明專案用途與使用方式。
 
+| 檔案 / 資料夾                  | 說明                                                                                |
+| ------------------------- | --------------------------------------------------------------------------------- |
+| **`src/main.gs`**         | Google Apps Script 主程式，處理 LINE Webhook、出題、判題、翻譯、建立 Google Form、錯題回顧等功能。           |
+| **`src/appsscript.json`** | Apps Script 專案設定，定義所需 OAuth 權限（spreadsheets、forms、drive、urlfetch…）、時區與執行環境。       |
+| **`config.example.js`**   | 設定檔範例，需複製成 `config.js`，並填入你的 **LINE Channel Access Token** 與 **Google Sheet ID**。 |
+| **`.gitignore`**          | 確保 `config.js` 不會被提交到 GitHub，避免金鑰外洩。                                              |
+| **`README.md`**           | 專案使用說明文件（包含安裝步驟、指令清單、注意事項等）。       
 ---
 
 ## 🚀 使用方式
