@@ -88,13 +88,18 @@ line-quiz-bot/
      | 題號 | 題目  | 選項A | 選項B | 選項C | 選項D | 正解 |
      | -- | --- | --- | --- | --- | --- | -- |
      | 1  | ... | ... | ... | ... | ... | A  |
-     
-    >如下面範例圖
-    ><img width="1054" height="102" alt="image" src="https://github.com/user-attachments/assets/9f5f88fd-a9e8-4fea-a109-be46c3404519" />
+
+   > 如下面範例圖  
+   > <img width="1054" height="102" alt="image" src="https://github.com/user-attachments/assets/9f5f88fd-a9e8-4fea-a109-be46c3404519" />
+
+   * **題庫來源**：請先準備好 CEH 題目（或其他練習題），再匯入到 Google Sheet。  
+     - 我個人是用 **Python 腳本**做過濾與清理，把雜訊、格式不規範的內容整理成表格格式，再匯入試算表。  
+     - 這部分依照大家的需求，可以自己決定要不要用 Python 預處理，或是手動整理。  
 
    * 取得試算表 ID（網址 `/d/` 和 `/edit` 之間那段）
 
    * 填入 `config.js`
+
 
 3. **部署 Apps Script**
 
