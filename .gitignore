@@ -1,0 +1,12 @@
+# Apps Script local
+.clasp.json
+
+# Sensitive config file
+config.js
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
